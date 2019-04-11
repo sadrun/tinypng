@@ -1,0 +1,26 @@
+{
+  "name": "tinypng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/tinypng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadrun/tinypng.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "tinypng": "bin/tinypng"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "fs-extra": "^7.0.1",
+    "imageinfo": "^1.0.4",
+    "inquirer": "^6.2.2",
+    "tinify": "^1.6.0-beta.2"
+  }
+}
